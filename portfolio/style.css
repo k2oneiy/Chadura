@@ -1,0 +1,27 @@
+.container {
+    display: grid;
+    grid-template-columns: 200px 1fr; 
+    grid-gap: 20px; 
+}
+
+.content{
+    background-image: url('./img/hero-bg.jpg');
+}
+.container {
+    overflow: hidden;
+}
+  
+.sidebar {
+    position: fixed;
+    height: 100%;
+    overflow-y: auto;
+}  
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+  
